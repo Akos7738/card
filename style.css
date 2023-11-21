@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 162, 255);
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.card p::first-letter {
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(45, 86, 95);
+    font-style: italic;
+}
+
+.card h3 {
+    font-variant: small-caps;
+}
+
+.card a {
+    width: 6rem;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: black;
+    padding: .3rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.card a :hover {
+    background-color: #fff;
+    color: black;
+}
