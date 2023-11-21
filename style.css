@@ -42,7 +42,6 @@
     text-decoration: none;
 }
 
-.card a :hover {
-    background-color: #fff;
-    color: black;
+.card a:hover {
+    background-color: #474747 !important;
 }
